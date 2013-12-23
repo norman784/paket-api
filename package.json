@@ -1,11 +1,14 @@
 {
   "name": "Paket",
-  "version": "0.1.0",
+  "description": "Simplify the rest api server development",
+  "version": "0.1.1",
   "dependencies": {
     "koa": "~0.1.1",
     "underscore": "~1.5.2",
     "co-body": "0.0.1",
     "koa-route": "~1.0.2",
-    "require-dir": "~0.1.0"
+    "require-dir": "~0.1.0",
+    "co": "~3.0.1",
+    "node-validator": "~0.1.1"
   }
 }

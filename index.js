@@ -49,6 +49,11 @@ exports.start = function(_config) {
 
       app.on('error', require('./lib/error'));
 
+      app.use(function *headers(next){
+        this.response.header['x-powered-by'] = paket.name;
+        yield next;
+      });
+
       require('./lib/middleware')(app);
       require('./lib/action')(app);
 

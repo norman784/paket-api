@@ -1,4 +1,4 @@
-# PAKET
+# PAKET API
 
 Simplify the rest api server development. Not recommended yet for production at this stage, but play with it and feel free to fork / open an issue / make a suggestion.
 
@@ -28,6 +28,7 @@ It was inspired on [Action Hero](https://github.com/evantahler/actionHero), beca
 ### <a name="structured-project"></a>
 ## Project structure
 
+```
 |- actions
 |   |- v1
 |   |   |-controller.js
@@ -38,6 +39,7 @@ It was inspired on [Action Hero](https://github.com/evantahler/actionHero), beca
 |   |- task.js
 |- app.js
 |- Readme.md
+```
 
 ### <a name="configuration"></a>
 ## Configuration
