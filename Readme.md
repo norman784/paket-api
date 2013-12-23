@@ -1,23 +1,27 @@
-Simplify the rest api creation
+PAKET
+=====
+
+Simplify the rest api server development
 
 Features
 --------
 
-- Configuration
-- Project structure
-- Controller based actions
-- API version support
-- Cluster support
+- [Structured project](#structured-project)
+- [Configuration](#configuration)
+- [Controller based actions](#controller-based-actions)
+- [API version support](#api-version-support)
+- [Cluster support](#cluster-support)
+- [API Documentation](#api-documentation)
 
 TODO
 ----
 
-- Fault tolerance
-- API Documentation
 - Action parameters validation
 - Middleware support
 - Tasks
+- Fault tolerance
 
+### <a name="structured-project"></a>
 Project structure
 ------------------
 
@@ -32,13 +36,26 @@ Project structure
 |- app.js
 |- Readme.md
 
+### <a name="configuration"></a>
+Configuration
+--------------
 
-Actions method params
----------------------
+- Clusters: Number of nodejs cluster that your app will fork
+- Port: application port (if is a heroku app just leave it blank)
+- Documentation: (Boolean) if you want to show the app documentation
 
-- api : object containing
-  - params : url params i.e. /path/:param1/:param2
-  - body : form body
-  - query : query string
-  - middleware : object containing the middlewares
-- callback : receive two params, error and data
+### <a name="controller-based-actions"></a>
+Controller based actions
+------------------------
+
+### <a name="api-version-support"></a>
+API version support
+--------------------
+
+### <a name="cluster-support"></a>
+Cluster support
+---------------
+
+### <a name="api-documentation"></a>
+API documentation
+-----------------
