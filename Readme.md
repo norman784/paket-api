@@ -17,7 +17,12 @@ TODO
 ----
 
 - Action parameters validation
-- Middleware support
+- Middleware support:
+  - Auth:
+    - App id / key authentication
+    - Password authentication
+  - Databases:
+    - Mongodb (co-monk based)
 - Tasks
 - Fault tolerance
 
